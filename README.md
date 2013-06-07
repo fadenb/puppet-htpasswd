@@ -1,6 +1,10 @@
 # htpasswd
 Puppet module to manage htpasswd and htgroup files
 
+## Changes from upstream
+* Removed parsing and generation of comments
+* Now allows modification of already existing accounts that were not managed by puppet before
+
 ## htpasswd type
 
 ### add a user
